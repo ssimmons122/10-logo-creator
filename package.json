@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ssimmons122/10-logo-generator/issues"
   },
-  "homepage": "https://github.com/ssimmons122/10-logo-generator#readme"
+  "homepage": "https://github.com/ssimmons122/10-logo-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
 }
