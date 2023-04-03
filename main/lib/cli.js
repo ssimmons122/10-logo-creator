@@ -1,12 +1,12 @@
-
+const inquirer = require ('inquirer');
 const SVG = require ("./svg");
 const { Circle, Triangle, Square } = require ("./shapes");
 const { writeFile } = require("fs/promises");
 
+//user input questions
 class CLI {
     run () {
-        return inquirer
-        .prompt([
+       inquirer.prompt([
             {
                 name: "text",
                 type: "input",
@@ -31,7 +31,7 @@ class CLI {
                 message: "Enter a color for your logo shape.",
             },
         ])
-        .then(({ text, textColor, shapeType, shapeColor })=> {
+        .then(({ text, textColor, shapeType, shapeColor }) => {
             let shape;
             switch (shapeType) {
                 case "circle":
@@ -62,3 +62,4 @@ class CLI {
         });
     }
 }
+module.exports = CLI;
