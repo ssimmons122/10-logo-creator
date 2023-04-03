@@ -24,4 +24,4 @@ class Square extends Shape {
     }
 };
 
-modeule.exports = { Circle, Triangle, Square};
+module.exports = { Circle, Triangle, Square};
