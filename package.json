@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ssimmons122/10-logo-generator#readme",
   "dependencies": {
-    "inquirer": "^9.1.5"
+    "inquirer": "^9.1.5",
+    "jest": "^29.5.0"
   }
 }
