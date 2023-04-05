@@ -7,12 +7,13 @@ This application enables users to create their own simple but custom SVG logo ri
 Node.js and Inquirer
 
 ## Usage
-Once you clone the code via GH, run 'node index.js' and follow the prompts closesly to create your logo.
+Once you clone the code via GH, run 'node index.js' and follow the prompts closely to create your logo.
 
 ## Acknowledgements
 
 
+
 ## Visuals
 Walkthrough Video: < > <br>
-Eamples of generated SVG logos:
+Examples of generated SVG logos:
 
